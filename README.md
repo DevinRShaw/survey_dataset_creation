@@ -35,8 +35,8 @@ The notebook converts the values for 2015-2017 from string percentage to decimal
 ## Setting Index and Labeling Years
 The notebook sets the index to the sorting code and labels the columns of each dataset with the respective year.
 
-## Merging Datasets by Agency
-The notebook merges the datasets using an inner join on the index of agencies. It changes the column names to ensure coherence and removes irrelevant columns.
+## Merging Datasets by Index
+The notebook merges the datasets using an inner join on the index of agency codes. It changes the column names to ensure coherence and removes irrelevant columns.
 
 ## Data Cleaning
 The notebook performs additional data cleaning steps, including:
